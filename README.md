@@ -76,3 +76,15 @@ SWAPIExpressDynamo/
 ├── serverless.yml
 └── tsconfig.json
 ```
+
+## Rutas para pruebas en POSTMAN:
+
+```
+dashboard: https://app.serverless.com/rdipaolaj/apps/swapi-express-dynamo/SWAPIExpressDynamo/prod/us-east-1
+endpoints:
+  GET - https://bv3as4gh8a.execute-api.us-east-1.amazonaws.com/users/{userId}
+  POST - https://bv3as4gh8a.execute-api.us-east-1.amazonaws.com/users
+  GET - https://bv3as4gh8a.execute-api.us-east-1.amazonaws.com/swapi/people/{id}
+functions:
+  api: SWAPIExpressDynamo-prod-api (4.8 MB)
+```
