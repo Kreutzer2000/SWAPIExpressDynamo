@@ -1,5 +1,6 @@
 # Dependencias
 node_modules/
+package-lock.json
 
 # Directorio de despliegue de Serverless
 .serverless/
